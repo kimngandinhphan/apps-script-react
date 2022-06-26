@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --dist-dir ./apps-script",
-    "build": "parcel build src/index.html --dist-dir ./apps-script"
+    "setup": "clasp create --type webapp --title \"Apps Script React Project\" --rootDir ./apps-script",
+    "start": "clasp push --watch",
+    "start:local": "parcel src/index.html --dist-dir ./apps-script",
+    "build": "parcel build src/index.html --dist-dir ./apps-script",
+    "deploy": "npm run build && npx clasp push"
   },
   "keywords": [],
   "author": "",
