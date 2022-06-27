@@ -2,7 +2,7 @@
   "name": "apps-script-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "setup": "clasp create --type webapp --title \"Apps Script React Project\" --rootDir ./apps-script",
     "start": "clasp push --watch",
@@ -21,6 +21,8 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@appkit4/react-components": "^4.0.0-beta",
+    "@appkit4/styles": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0"
