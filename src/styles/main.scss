@@ -1,2 +1,10 @@
-@import '../../node_modules/@appkit4/styles/appkit.min.css';
-@import '../../node_modules/@appkit4/react-components/dist/styles/appkit4-react.min.css';
+// @import '../../node_modules/@appkit4/styles/appkit.min.css';
+// @import '../../node_modules/@appkit4/react-components/dist/styles/appkit4-react.min.css';
+
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";

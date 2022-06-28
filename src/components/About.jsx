@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <main>
+        <main className='container'>
             <h2>Who are we?</h2>
             <p>
                 That feels like an existential question, don't you
